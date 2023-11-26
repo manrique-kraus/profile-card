@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span {
+    color: rgb(143, 137, 137);
+    font-weight: 700;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+img  {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 130px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.informations {
+    background-color:white;
+    border-radius: 10px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.informations .name {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.informations .city {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    color: rgb(143, 137, 137);
+}
+
+.informations .numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    font-weight: 700;
+    border-top: 1px solid rgba(143, 137, 137, 0.2);
+    margin-top: 20px;
+}
+
+.informations .numbers h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.informations .numbers p {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    color: rgb(143, 137, 137);
+}
